@@ -3,6 +3,11 @@
   margin: 0;
 }
 
+a, a:hover, a:visited, a:active, a:link {
+  color: inherit;
+  text-decoration: none;
+ }
+
 h1 {
   font-size: 3rem;
 }
@@ -26,7 +31,28 @@ nav > ul {
 
 nav > ul > li:hover {
   text-shadow: -1px 1px 0 currentColor;
+  text-decoration: underline;
   cursor: pointer;
+}
+
+main {
+  background-color: #F4EDD3;
+  padding-block: 75px;
+  padding-inline: 250px;
+}
+
+main > div {
+  
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #4C585B;
+  color: #F4EDD3;
 }
 
 .container {

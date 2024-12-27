@@ -11,6 +11,9 @@ function App() {
         <Navbar />
         <MainArticle />
         <NewsletterForm />
+        <footer>
+          <p>Copyright &copy; by Lapiz Jusoh, 2024-2024</p>
+        </footer>
       </div>
     </div>
   )

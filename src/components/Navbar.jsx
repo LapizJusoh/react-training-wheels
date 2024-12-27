@@ -1,11 +1,11 @@
 function Navbar() {
   return (
     <nav>
-      <h1>Homepage</h1>
+      <h1>Fattery Scoth</h1>
       <ul>
-        <li>About Us</li>
-        <li>Our Product</li>
-        <li>Contact Us</li>
+        <li><a href="https://www.google.com" target="_blank">About Us</a></li>
+        <li><a href="https://www.google.com" target="_blank">Our Product</a></li>
+        <li><a href="https://www.google.com" target="_blank">Contact Us</a></li>
       </ul>
     </nav>
   )
