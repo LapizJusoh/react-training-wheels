@@ -1,9 +1,18 @@
+import './App.css';
+import Navbar from "./Navbar.jsx";
+import MainArticle from "./MainArticle.jsx";
+import NewsletterForm from "./NewsletterForm.jsx";
+
 function App() {
 
   return (
-    <>
-      <h1>Hello, World!</h1>
-    </>
+    <div className="container">
+      <div>
+        <Navbar />
+        <MainArticle />
+        <NewsletterForm />
+      </div>
+    </div>
   )
 }
 
